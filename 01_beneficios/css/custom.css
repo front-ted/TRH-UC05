@@ -269,6 +269,16 @@ body{
     text-align: center;
 }
 
+/*------- Correção modo escuro -------*/
+.bg-escuro .infografico02 span, .bg-escuro .marcador-flecha li{
+    color: #fff;
+}
+.bg-escuro .info-destaque p, .bg-escuro .info-destaque-mobile p{
+    color: #234B91;
+}
+
+/*------- Correção modo escuro -------*/
+
 .destaque-beneficios{
     background: linear-gradient(90deg, #92ACCE, #B73061);
     border-radius: 20px;
@@ -296,6 +306,10 @@ body{
     position: absolute;
     top: -60px;
     right: -90px;
+}
+
+.modal-body p, .modal-body li{
+    color: #000;
 }
 
 
@@ -351,5 +365,23 @@ body{
 
     .infografico01{
         display: none;
+    }
+
+    .destaque-beneficios{
+        width: 100%;
+        margin: 120px auto 40px auto;
+        padding: 30px 40px;
+        padding-top: 100px;
+    }
+    .destaque-beneficios img{
+        position: relative;
+        margin: auto;
+        top: unset;
+        left: unset;
+        right: unset;
+        display: block;
+        margin-top: -180px;
+        margin-bottom: 20px;
+        width: 160px;
     }
 }

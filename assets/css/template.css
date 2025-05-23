@@ -655,7 +655,7 @@ tbody td:first-child{border-left: 0;}
     top: 60px;
     left: 0px;
     background-color: rgb(0, 0, 0);
-    opacity: 0.85;
+    opacity: 0.75;
 }
 
 .top60 .layer-preta {
@@ -673,8 +673,7 @@ tbody td:first-child{border-left: 0;}
 .bg-escuro p,
 .bg-escuro li,
 .bg-escuro figcaption,
-.bg-escuro .tab-content,
-.bg-escuro .modal-body * {
+.bg-escuro .tab-content {
     color: #fff;
 }
 .bg-escuro .destaque *,
