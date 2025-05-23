@@ -1,6 +1,24 @@
-$(".btn-organizacao").click(function(){
-    $(".check-organizacao").css('display','block');
+$(".btn-vale").click(function(){
+    $(".check-vale").css('display','block');
 });
-$(".btn-funcionario").click(function(){
-    $(".check-funcionario").css('display','block');
+$(".btn-assistencia").click(function(){
+    $(".check-assistencia").css('display','block');
+});
+$(".btn-odontologico").click(function(){
+    $(".check-odontologico").css('display','block');
+});
+$(".btn-bolsa").click(function(){
+    $(".check-bolsa").css('display','block');
+});
+$(".btn-creche").click(function(){
+    $(".check-creche").css('display','block');
+});
+$(".btn-cultura").click(function(){
+    $(".check-cultura").css('display','block');
+});
+$(".btn-previdencia").click(function(){
+    $(".check-previdencia").css('display','block');
+});
+$(".btn-plr").click(function(){
+    $(".check-plr").css('display','block');
 });
