@@ -22,3 +22,19 @@ $(".btn-previdencia").click(function(){
 $(".btn-plr").click(function(){
     $(".check-plr").css('display','block');
 });
+
+$("#btn-premios").click(function(){
+    $(this).css('background-image','url(img/painel02/bt01_hover.png)');
+});
+$("#btn-reforma_salarial").click(function(){
+    $(this).css('background-image','url(img/painel02/bt02_hover.png)');
+});
+$("#btn-saude").click(function(){
+    $(this).css('background-image','url(img/painel02/bt03_hover.png)');
+});
+$("#btn-viagem").click(function(){
+    $(this).css('background-image','url(img/painel02/bt04_hover.png)');
+});
+$("#btn-contribuicoes").click(function(){
+    $(this).css('background-image','url(img/painel02/bt05_hover.png)');
+});
