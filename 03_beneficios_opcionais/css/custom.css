@@ -39,6 +39,7 @@ body{
     border-color: #0E4989;
     color: #0E4989;
     font-size: 14px;
+    border-radius: 40px;
 }
 .painel-beneficios button:hover>span{
     background-color: #0E4989;
