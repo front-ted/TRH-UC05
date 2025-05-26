@@ -1,144 +1,737 @@
 <!doctype html>
 <html lang="pt-br">
-    <head>
-        <!-- Inserir o tíutlo do conhecimento na tag title -->
-        <title>Título do conhecimento</title>
-        <!-- Meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS v5.0.2 -->
-        <link rel="stylesheet" href="../assets/bootstrap/bootstrap.min.css">
-        <link rel="stylesheet" href="../assets/fa/css/all.min.css">
-        <!-- Animate.css -->
-        <link rel="stylesheet" href="../assets/css/animate.min.css" />
-        <!-- hover.css https://ianlunn.github.io/Hover/ -->
-        <link rel="stylesheet" href="../assets/css/hover-min.css" />
-        <!--Splide - slideshow-->
-        <link rel="stylesheet" href="../assets/css/splide.min.css">
-        <!-- Preloader -->
-        <link rel="stylesheet" href="../assets/css/preloader.css">
-        <!-- Áudio customizado -->
-        <link rel="stylesheet" href="../assets/css/player.css">
-        <!-- Estilos do template -->
-        <link rel="stylesheet" href="../assets/css/cores.css">
-        <link rel="stylesheet" href="../print/print/print.css">
-        <link rel="stylesheet" href="../assets/css/template.css">
-    
-    </head>
-    <body class="bg-claro">
-        <!-- Preloader OBRIGATÓRIO -->
-        <div class="preloader">
-            <div class="anim"></div>
-            <p>Aguarde enquanto o conteúdo é carregado.</p>
-        </div>
-        <!-- Marca d'água OBRIGATÓRIA -->
-        <img src="../assets/images/logo_senac_colorido.png" id="marcadaguaLogo">
+<head>
+    <!-- Inserir o tíutlo do conhecimento na tag title -->
+    <title>Benefícios legais</title>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <header id="topo">
-            <div class="topo-logo">
-                <div class="container">
-                    <h1 id="nome-curso" class="only-print">Técnico em Recursos Humanos</h1> 
-                    <div id="toggleButton" class="btn-tema_pagina no-print" onclick="toggleBackgroundImage()" aria-hidden="true"></div>     
-                </div>
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="../assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fa/css/all.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="../assets/css/animate.min.css" />
+    <!-- hover.css https://ianlunn.github.io/Hover/ -->
+    <link rel="stylesheet" href="../assets/css/hover-min.css" />
+    <!--Splide - slideshow-->
+    <link rel="stylesheet" href="../assets/css/splide.min.css">
+    <!-- Preloader -->
+    <link rel="stylesheet" href="../assets/css/preloader.css">
+    <!--Atividade arrasta e solta-->
+    <link rel="stylesheet" href="../assets/atividades/arrasta_solta/dragula.css">
+    <link rel="stylesheet" href="../assets/atividades/arrasta_solta/game-custom.css">
+    <!-- Áudio customizado -->
+    <link rel="stylesheet" href="../assets/css/player.css">
+    <!-- Estilos do template -->
+    <link rel="stylesheet" href="../assets/css/cores.css">
+    <link rel="stylesheet" href="../print/print/print.css">
+    <link rel="stylesheet" href="../assets/css/template.css">
+
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body class="bg-claro">
+    <!-- Preloader OBRIGATÓRIO -->
+    <div class="preloader">
+        <div class="anim"></div>
+        <p>Aguarde enquanto o conteúdo é carregado.</p>
+    </div>
+    <!-- Marca d'água OBRIGATÓRIA -->
+    <img src="../assets/images/logo_senac_colorido.png" id="marcadaguaLogo">
+
+    <header id="topo">
+        <div class="topo-logo">
+            <div class="container">
+                <h1 id="nome-curso" class="only-print">Técnico em Recursos Humanos</h1>
+                <div id="toggleButton" class="btn-tema_pagina no-print" onclick="toggleBackgroundImage()"
+                    aria-hidden="true"></div>
             </div>
-        </header>
-        <!-- Section principal #booklet OBRIGATÓRIO para funcionamento do print -->    
-        <section id="booklet">  
-            <div class="layer-preta no-print"></div>       
-            <!-- Section .paginas OBRIGATÓRIA para funcionamento da paginação e do print -->
-            <section class="paginas">
-                <div class="pagina">
-                    <div class="container">
-                        <h2>h2 - Título do conteúdo</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas turpis nisl, tristique et dui ac, convallis ullamcorper arcu. Ut finibus, elit eget ornare pharetra, dolor erat finibus nulla, nec efficitur sem nisi at nulla. Phasellus non pharetra tortor. Proin dictum ultrices ligula in finibus. Suspendisse id sem consectetur, venenatis ex vel, consectetur arcu. Cras vulputate quam in ultrices ornare. Donec gravida pharetra odio et ultrices.</p>
-                        <h3>h3 - Subtítulo</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas turpis nisl, tristique et dui ac, convallis ullamcorper arcu. Ut finibus, elit eget ornare pharetra, dolor erat finibus nulla, nec efficitur sem nisi at nulla. Phasellus non pharetra tortor. Proin dictum ultrices ligula in finibus. Suspendisse id sem consectetur, venenatis ex vel, consectetur arcu. Cras vulputate quam in ultrices ornare. Donec gravida pharetra odio et ultrices.</p>
-                        <h4>h4 - Subtítulo</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas turpis nisl, tristique et dui ac, convallis ullamcorper arcu. Ut finibus, elit eget ornare pharetra, dolor erat finibus nulla, nec efficitur sem nisi at nulla. Phasellus non pharetra tortor. Proin dictum ultrices ligula in finibus. Suspendisse id sem consectetur, venenatis ex vel, consectetur arcu. Cras vulputate quam in ultrices ornare. Donec gravida pharetra odio et ultrices.</p>
-                        <h5>h5 - Subtítulo</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas turpis nisl, tristique et dui ac, convallis ullamcorper arcu. Ut finibus, elit eget ornare pharetra, dolor erat finibus nulla, nec efficitur sem nisi at nulla. Phasellus non pharetra tortor. Proin dictum ultrices ligula in finibus. Suspendisse id sem consectetur, venenatis ex vel, consectetur arcu. Cras vulputate quam in ultrices ornare. Donec gravida pharetra odio et ultrices.</p>
-                    </div>
-                    <div class="bloco bg-gradiente">
-                        <div class="container">
-                            <h5>Tag mark</h5>
-                            <p>Podemos usar a <i>tag mark</i> para <mark>destacar</mark> o texto.</p>
+        </div>
+    </header>
+    <!-- Section principal #booklet OBRIGATÓRIO para funcionamento do print -->
+    <section id="booklet">
+        <div class="layer-preta no-print"></div>
+        <!-- Section .paginas OBRIGATÓRIA para funcionamento da paginação e do print -->
+        <section class="paginas">
+            <div class="pagina container">
+                <h2>Benefícios legais</h2>
+                <p>Os benefícios legais são direitos fundamentais garantidos pela Consolidação das Leis do Trabalho (CLT) e que visam assegurar a proteção e o bem-estar dos trabalhadores. Além de uma forma de compensação pelos serviços prestados, esses benefícios reforçam o vínculo entre empresa e colaborador, contribuindo para um ambiente de trabalho mais saudável e produtivo.</p>
+                <p>O profissional da área de recursos humanos deve ter conhecimento sobre os benefícios legais, pois deverá orientar os colaboradores para que estes possam usufruir adequadamente dos seus benefícios, bem como apoiar o empregador no seu dever de cumprir com as determinações da lei. É importante manter-se atualizado sobre esse assunto para transmitir segurança para o colaborador e credibilidade para o empregador.</p>
+                <p>Este conteúdo explorará os principais benefícios a que os trabalhadores brasileiros têm direito, como férias, 13º salário, Fundo de Garantia do Tempo de Serviço (FGTS) e outros, além das obrigações que as empresas devem cumprir para garantir que esses direitos sejam devidamente respeitados.</p>
+
+                <!-- Bloco 2 -->
+                <h3>Férias</h3>
+                <p>De acordo com a Constituição Federal, os empregados urbano e rural, após trabalharem 12 meses, terão direito a um período de 30 dias de férias, sem prejuízo da remuneração. Dessa forma, receberão, nesse período, a devida remuneração.</p>
+                
+                <p class="no-print">Clique ou toque para visualizar o conteúdo.</p>
+                <div class="painel-timeline d-none d-sm-block">
+                    <h4 class="text-center">Um pouco de história sobre o direito às férias</h4>
+                    <button type="button" class="btn-1848" data-bs-toggle="modal" data-bs-target="#modal-1848"></button>
+                    <button type="button" class="btn-1872" data-bs-toggle="modal" data-bs-target="#modal-1872"></button>
+                    <button type="button" class="btn-1925" data-bs-toggle="modal" data-bs-target="#modal-1925"></button>
+                    <button type="button" class="btn-1934" data-bs-toggle="modal" data-bs-target="#modal-1934"></button>
+                    <button type="button" class="btn-1943" data-bs-toggle="modal" data-bs-target="#modal-1943"></button>
+                    <button type="button" class="btn-1988" data-bs-toggle="modal" data-bs-target="#modal-1988"></button>
+                </div>
+                <div class="painel-timeline_mobile d-block d-sm-none">
+                    <h4 class="text-center">Um pouco de história sobre o direito às férias</h4>
+                    <button type="button" class="btn-1848_mobile" data-bs-toggle="modal" data-bs-target="#modal-1848"></button>
+                    <button type="button" class="btn-1872_mobile" data-bs-toggle="modal" data-bs-target="#modal-1872"></button>
+                    <button type="button" class="btn-1925_mobile" data-bs-toggle="modal" data-bs-target="#modal-1925"></button>
+                    <button type="button" class="btn-1934_mobile" data-bs-toggle="modal" data-bs-target="#modal-1934"></button>
+                    <button type="button" class="btn-1943_mobile" data-bs-toggle="modal" data-bs-target="#modal-1943"></button>
+                    <button type="button" class="btn-1988_mobile" data-bs-toggle="modal" data-bs-target="#modal-1988"></button>
+                </div>
+                <!-- Modais -->
+                <div class="modal fade" id="modal-1848" tabindex="-1" aria-labelledby="exampleModalLabel">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">1848</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Foi na Europa de 1848 que se iniciaram as lutas operárias pelo direito às férias.</p>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="botao hvr-grow-shadow" data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="container">
-                        <h5>Citação</h5>
-                        <figure class="text-end">
-                            <blockquote class="blockquote">
-                                <p>"Educação não transforma o mundo. Educação muda as pessoas. Pessoas transformam o mundo."</p>
-                            </blockquote>
-                            <figcaption class="blockquote-footer">
-                                Paulo Freire <cite title="Source Title">Título</cite>
-                            </figcaption>
-                        </figure>
+                </div>
+                <div class="modal fade" id="modal-1872" tabindex="-1" aria-labelledby="exampleModalLabel">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">1872</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>O primeiro país a decretar uma lei que tornou obrigatória a concessão de férias foi a Inglaterra, em 1872. Mas foi somente a partir do século XX que o direito às férias se consolidou como norma legal na maior parte dos países.</p>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="botao hvr-grow-shadow" data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <a href="#" class="voltar-topo no-print" aria-hidden="true"><img src="../assets/images/bt_topo.svg"></a> 
-                </div> 
-            </section>
-            <!-- Paginação-->
-            <footer class="text-center no-print d-flex justify-content-center mx-auto">
-                <ul class="pagination">
-    
-                </ul>
-            </footer>   
+                </div>
+                <div class="modal fade" id="modal-1925" tabindex="-1" aria-labelledby="exampleModalLabel">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">1925</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>No Brasil, com o fortalecimento do movimento operário, a partir das greves de 1917, foi elaborada a primeira Lei de Férias, em 1925. Essa lei garantia 15 dias de descanso aos trabalhadores das indústrias, do comércio e dos bancos.</p>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="botao hvr-grow-shadow" data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-1934" tabindex="-1" aria-labelledby="exampleModalLabel">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">1934</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Somente em 1934 as férias anuais tornaram-se um direito constitucional.</p>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="botao hvr-grow-shadow" data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-1943" tabindex="-1" aria-labelledby="exampleModalLabel">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">1943</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Em 1943 a CLT firmou em 30 dias a duração mínima das férias.</p>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="botao hvr-grow-shadow" data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-1988" tabindex="-1" aria-labelledby="exampleModalLabel">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">1988</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Com a Constituição de 1988, os trabalhadores conquistaram o direito ao recebimento de salário correspondente às férias, acrescido de 1/3 (um terço). Todo empregado tem direito a gozar do período de férias após completar 12 meses de trabalho. Esse direito corresponde a um descanso anual remunerado.</p>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="botao hvr-grow-shadow" data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h4>Período de férias</h4>
+                <p>Tendo trabalhado pelo período de um ano, o empregado passa a ter o direito de gozar férias sem prejuízo em seu salário. Ele deve ainda receber 1/3 de adicional em seu salário normal, o chamado “abono de férias”, e poderá vender até 1/3 de suas férias ao empregador.</p>
+                
+                <p class="no-print">Clique ou toque para visualizar o conteúdo.</p>
+                <div class="painel-periodos">
+                    <button type="button" class="btn-aquisitivo hvr-grow-shadow" data-bs-toggle="modal" data-bs-target="#modal-aquisitivo">
+                        <span class="botao">Período aquisitivo</span>
+                        <img src="../assets/images/check.svg" class="img-check check-aquisitivo">
+                    </button>
+                    <button type="button" class="btn-concessivo hvr-grow-shadow" data-bs-toggle="modal" data-bs-target="#modal-concessivo">
+                        <span class="botao">Período concessivo</span>
+                        <img src="../assets/images/check.svg" class="img-check check-concessivo">
+                    </button>
+                    <button type="button" class="btn-parcelamento hvr-grow-shadow" data-bs-toggle="modal" data-bs-target="#modal-parcelamento">
+                        <span class="botao">Parcelamento de férias</span>
+                        <img src="../assets/images/check.svg" class="img-check check-parcelamento">
+                    </button>
+                </div>
+                <!-- Modais -->
+                <div class="modal fade" id="modal-aquisitivo" tabindex="-1" aria-labelledby="exampleModalLabel">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Período aquisitivo</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>O período aquisitivo de férias corresponde aos 12 meses consecutivos de trabalho que concedem ao empregado o direito às férias.</p>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="botao hvr-grow-shadow" data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-concessivo" tabindex="-1" aria-labelledby="exampleModalLabel">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Período concessivo</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>O período concessivo consiste nos 12 meses seguintes ao período aquisitivo, no qual o empregado deve desfrutar seu direito às férias. A empresa tem a liberdade de determinar, dentro desse período, quando o funcionário vai usufruir de suas férias, respeitando acordos internos ou negociações coletivas, quando houver. Se a empresa não conceder as férias ao trabalhador dentro desse período concessivo, ela deverá pagar as férias em dobro, conforme o artigo 137 da CLT.</p>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="botao hvr-grow-shadow" data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-parcelamento" tabindex="-1" aria-labelledby="exampleModalLabel">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Parcelamento de férias</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>As férias serão concedidas em um só período de 30 dias pelo empregador, nos 12 meses subsequentes ao direito adquirido pelo empregado, ou podem ser fracionadas em três períodos, desde que haja concordância do empregado, sendo que um dos períodos não poderá ser inferior a 14 dias corridos e os demais não poderão ser inferiores a cinco dias corridos cada um.</p>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="botao hvr-grow-shadow" data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Essas informações devem ser registradas na Carteira de Trabalho e Previdência Social (CTPS) do empregado e também em sua ficha registro.</p>
+                <p>É fundamental apresentar as proporções dos dias em que o empregado terá direito a gozar férias, quando houver faltado ao trabalho de forma injustificada:</p>
+                <div class="table-responsive table my-5">
+                    <table class="text-left align-middle">
+                        <thead>
+                            <tr>
+                                <th class="w-50 text-center">Período de gozo de férias</th>
+                                <th class="w-50 text-center">Número de faltas injustificadas ao trabalho</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>30 dias</td>
+                                <td>Até 5 faltas</td>
+                            </tr>
+                            <tr>
+                                <td>24 dias</td>
+                                <td>De 6 a 14 faltas</td>
+                            </tr>
+                            <tr>
+                                <td>18 dias</td>
+                                <td>De 15 a 23 faltas</td>
+                            </tr>
+                            <tr>
+                                <td>12 dias</td>
+                                <td>De 24 a 32 faltas</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="grafismo">
+                    <div class="destaque gradiente">
+                        <p>Faltas injustificadas são representadas por ausência do empregado sem motivo justificado.</p>
+                    </div>
+                </div>
+                <h4>Perda do direito de férias</h4>
+                <p>Em algumas situações, o empregado estará sujeito à perda do direito às férias. </p>
+                <p>Entre essas situações estão:</p>
+                
+
+
+
+
+                <div class="row">
+                    <div class="col-sm-5 col-xs-12">
+                        <img src="img/img01.png" class="img-fluid mx-auto d-block no-print">
+                    </div>
+                    <div class="col-sm-7 col-xs-12">
+                        <p>Um dos objetivos do setor de recursos humanos (RH) é aumentar a produtividade e o comprometimento dos funcionários, assegurtrabalhoando que estejam engajados e alinhados aos objetivos da empresa, sendo essencial, portanto, que se sintam valorizados, satisfeitos e motivados. Para manter seus funcionários com essa motivação, um recurso muito utilizado pelas organizações é a oferta de uma remuneração justa e atrativa.</p>
+                    </div>
+                </div>
+                <br>
+                <p>Tal remuneração pode ser direta ou indireta. A remuneração direta é o salário, pago de acordo com o cargo exercido, já a indireta abrange os benefícios que complementam a remuneração direta. Esses benefícios devem ser oferecidos a todos os colaboradores, independentemente do cargo, de forma igualitária, embora algumas organizações disponibilizem pacotes de benefícios específicos para diferentes níveis hierárquicos, conforme sua política salarial. </p>
+                <div class="grafismo">
+                    <div class="destaque borda-colorida icone importante">
+                        <p>É importante ressaltar que, ao adotarem a prática de oferecer um pacote de benefícios aos seus funcionários, as organizações ampliam a produtividade e a lealdade, promovem uma relação de compromisso entre a empresa e o trabalhador, bem como proporcionam ao empregado uma melhor qualidade de vida.</p>
+                    </div>
+                </div>
+
+                <h3>Mas o que são benefícios?</h3>
+                <div class="row">
+                    <div class="col-sm-7 col-xs-12">
+                        <br>
+                        <p>Os benefícios são vantagens concedidas, além do salário-base, que as empresas podem fornecer para ajudar ou gratificar o trabalhador, de forma a complementar o salário. Portanto, eles têm como objetivo aumentar a satisfação no trabalho e promover o bem-estar. Os benefícios podem ser pagos integral ou parcialmente pelo empregador, isto é, em alguns tipos, o custo será todo da empresa; em outros, o funcionário terá uma participação que será descontada na folha de pagamento.</p>
+                    </div>
+                    <div class="col-sm-5 col-xs-12">
+                        <img src="img/img02.png" class="img-fluid mx-auto d-block no-print">
+                    </div>
+                </div>
+                <p>Sua origem deve-se à preocupação das organizações em reter talentos, promover tranquilidade e qualidade de vida, bem como diminuir a rotatividade de pessoal. Quando bem implementado, o programa de benefícios cria uma percepção de cuidado e de reconhecimento por parte da organização, contribuindo diretamente tanto para um clima organizacional positivo como para um maior comprometimento dos funcionários com suas atividades. O aumento dessa prática nas empresas está relacionado com as reivindicações dos empregados e com as exigências dos sindicatos, os quais buscam uma melhor qualidade de vida para todos. Outros aspectos que influenciam na implementação dessa prática estão relacionados com a imposição da legislação trabalhista. </p>
+                <p>Na sequência, confira algumas das vantagens dos benefícios para o empregado e para o empregador.</p>
+
+                <div class="no-print" aria-hidden="true">
+                    <p>Clique ou toque para visualizar o conteúdo.</p>
+                    <div class="painel-vantagens">
+                        
+                    </div>
+                </div>
+
+                
+
+                <p>Os benefícios são importantes para atender às necessidades pessoais do empregado, trazendo satisfação e motivação. Por essa razão, é preciso saber que há dois tipos de benefícios: os legais, que são obrigatórios à empresa, e os opcionais, os quais a empresa oferece por decisão própria.</p>
+                <p>A seguir, veja mais detalhes sobre esses benefícios:</p>
+                <h4>Benefícios obrigatórios ou legais</h4>
+                <p>São chamados de benefícios legais, ou seja, aqueles que as empresas devem, obrigatoriamente, oferecer aos colaboradores, porque são direitos de todos os trabalhadores contratados de acordo com o regime da Consolidação das Leis do Trabalho (CLT). Em função disso, não podem ser apresentados como vantagens, pois são exigidos pela legislação trabalhista ou pelo acordo entre os sindicatos com convenção coletiva. Entre os exemplos de benefícios obrigatórios ou legais estão:</p>
+
+                <h4>Benefícios opcionais ou espontâneos</h4>
+                <p>São todos aqueles oferecidos pela organização espontaneamente, ou seja, não são exigidos por lei. Geralmente, as empresas concedem esses tipos de benefícios para atender às necessidades dos seus funcionários e aumentar o nível de satisfação. Assim, as organizações geram mais motivação e entusiasmo no ambiente de trabalho e contribuem para o bem-estar e para a qualidade de vida dos colaboradores.</p>
+                <p>Observe os seguintes exemplos:</p>
+                <div class="infografico01 no-print">
+                    <span class="texto01">Gratificações/ participação dos lucros</span>
+                    <span class="texto02">Seguro de vida</span>
+                    <span class="texto03">Vale-alimentação</span>
+                    <span class="texto04">Vale-refeição</span>
+                    <span class="texto05">Empréstimos</span>
+                    <span class="texto06">Assistência médica e odontológica</span>
+                    <span class="texto07">Complementação de aposentadoria</span>
+                    <span class="texto08">Auxílio-creche</span>
+                    <span class="texto09">Assistência educacional, como bolsas de estudo</span>
+                    <span class="texto10"><i>Home office</i></span>
+                    <span class="texto11">Convênio com academias</span>
+                    <span class="texto12">Convênio com farmácias</span>
+                </div>
+                <img class="img-fluid mx-auto d-block d-sm-none print" src="img/info01_mobile.png">
+                <div class="sr-only no-print">
+                    <ul class="marcador-padrao">
+                        <li>Gratificações/participação dos lucros</li>
+                        <li>Seguro de vida</li>
+                        <li>Vale-alimentação</li>
+                        <li>Vale-refeição</li>
+                        <li>Empréstimos</li>
+                        <li>Assistência médica e odontológica</li>
+                        <li>Complementação de aposentadoria</li>
+                        <li>Auxílio-creche</li>
+                        <li>Assistência educacional, como bolsas de estudo</li>
+                        <li><i>Home office</i></li>
+                        <li>Convênio com academias</li>
+                        <li>Convênio com farmácias</li>
+                    </ul>
+                </div>
+                <h4>Benefícios previdenciários</h4>
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <img src="img/img03.png" class="img-fluid mx-auto d-block no-print">
+                    </div>
+                    <div class="col-sm-8 col-xs-12">
+                        <p><b>Previdência Social</b></p>
+                        <p>É um seguro social que visa assegurar a renda dos trabalhadores (e de seus familiares) em situações de perda da capacidade laboral por algum motivo (doença, acidente, maternidade, morte, invalidez ou velhice). A Previdência Social é responsável pelo pagamento de vários benefícios, tais como: aposentadoria, salário-maternidade, salário-família, auxílio-doença, auxílio-acidente e pensão por morte.</p>
+                    </div>
+                </div>
+                <p>Para ter direito à concessão dos benefícios da Previdência Social, é obrigatória a contribuição monetária para o Instituto Nacional do Seguro Social (INSS).</p>
+                <div class="grafismo">
+                    <div class="destaque gradiente icone saibamais">
+                        <p>Todos os trabalhadores contratados com carteira assinada são assegurados pela Previdência Social. Aqueles que não são registrados e querem garantir o benefício podem contribuir individualmente como autônomos ou empresários.</p>
+                    </div>
+                </div>
+                <p>Conheça, a seguir, os principais benefícios concedidos pela Previdência Social.</p>
+                <p class="no-print">Clique ou toque para visualizar o conteúdo.</p>
+                <div class="accordion" id="accordion01">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading01">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse01" aria-expanded="false" aria-controls="collapse01">
+                                Aposentadoria
+                            </button>
+                        </h2>
+                        <div id="collapse01" class="accordion-collapse collapse" aria-labelledby="heading01" data-bs-parent="#accordion01">
+                            <div class="accordion-body">
+                                <p>Ela pode ser concedida, em diferentes situações, de acordo com regras específicas para cada um destes casos: tempo de contribuição, idade, especial ou invalidez.</p>
+                                <p>A reforma previdenciária, que entrou em vigor em novembro de 2019 com a Emenda Constitucional nº 103, promoveu várias alterações, entre as quais estão:</p>
+                                <ul class="marcador-padrao">
+                                    <li>Com relação à idade</li>
+                                    <ul class="marcador-seta">
+                                        <li>As mulheres aposentam-se com pelo menos 62 anos e 15 anos de contribuição.</li>
+                                        <li>Os homens aposentam-se com 65 anos e 20 anos de contribuição.</li>
+                                        <li>Há regras diferentes para determinadas categorias profissionais.</li>
+                                    </ul>
+                                    <li>Com relação à forma de calcular a aposentadoria</li>
+                                    <ul class="marcador-seta">
+                                        <li>Houve uma mudança e o valor será definido com base em todas as contribuições feitas pelo segurado, desde julho de 1994, e não poderá ser inferior a um salário mínimo, tampouco ultrapassar o teto do Regime Geral de Previdência Social (RGPS); além disso, as alíquotas são progressivas, ou seja, quem ganha mais pagará mais.</li>
+                                    </ul>
+                                </ul>
+                                <div class="destaque gradiente">
+                                    <p>Para mais informações, acesse o <i>site</i> do INSS.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading02">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse02" aria-expanded="false" aria-controls="collapse02">
+                                Auxílio-doença
+                            </button>
+                        </h2>
+                        <div id="collapse02" class="accordion-collapse collapse" aria-labelledby="heading02" data-bs-parent="#accordion01">
+                            <div class="accordion-body">
+                                <p>É um benefício concedido ao trabalhador que precisa se afastar do trabalho, devido à doença ou a acidente, por mais de 15 dias. A empresa paga ao trabalhador os primeiros 15 dias de afastamento, e a Previdência Social fica responsável pelo restante do tempo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading03">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse03" aria-expanded="false" aria-controls="collapse03">
+                                Pensão por morte urbana
+                            </button>
+                        </h2>
+                        <div id="collapse03" class="accordion-collapse collapse" aria-labelledby="heading03" data-bs-parent="#accordion01">
+                            <div class="accordion-body">
+                                <p>Em caso de morte do trabalhador, os dependentes podem ter o direito de receber este benefício, caso atendam aos critérios estabelecidos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading04">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse04" aria-expanded="false" aria-controls="collapse04">
+                                Salário-maternidade urbano
+                            </button>
+                        </h2>
+                        <div id="collapse04" class="accordion-collapse collapse" aria-labelledby="heading04" data-bs-parent="#accordion01">
+                            <div class="accordion-body">
+                                <p>Os trabalhadores terão o benefício concedido em função de afastamento do trabalho devido a nascimento de filho, adoção e aborto não criminoso. O período de concessão do benefício, na maioria dos casos, é de 120 dias e é pago pela empresa, que pode compensar o valor com as contribuições previdenciárias.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading05">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse05" aria-expanded="false" aria-controls="collapse05">
+                                Salário-família
+                            </button>
+                        </h2>
+                        <div id="collapse05" class="accordion-collapse collapse" aria-labelledby="heading05" data-bs-parent="#accordion01">
+                            <div class="accordion-body">
+                                <p>Todos os empregados, que ganharem um salário dentro do limite máximo estipulado pelo governo federal, têm direito a receber da Previdência Social esse benefício, com o objetivo de auxiliar no sustento dos filhos com idade até 14 anos incompletos ou inválidos de qualquer idade.</p>
+                                <div class="destaque gradiente">
+                                    <p>Os valores da tabela do salário-família podem ser alterados anualmente, por isso é importante pesquisar sempre no <i>site</i> da Previdência para conferir as faixas salariais.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Nova reforma trabalhista e os benefícios obrigatórios</h3>
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <img src="img/img04.png" class="img-fluid mx-auto d-block no-print">
+                    </div>
+                    <div class="col-sm-8 col-xs-12">
+                        <p>O mundo do trabalho tem passado por constantes mudanças, por esse motivo o governo alegou que a CLT, de 1940, precisava de uma atualização. Então, em julho de 2017, pela Lei nº 13.467, foram realizadas mais de cem modificações na CLT, as quais entraram em vigor em novembro de 2017.</p>
+                        <p>Há importantes discussões sobre a violação dos direitos dos trabalhadores que estavam garantidos pela CLT. No momento, o foco serão os principais pontos da reforma relacionados aos benefícios obrigatórios. Pela reforma trabalhista de 2017, os benefícios obrigatórios não podem ser retirados, mas não há proibição quanto à redução ou à substituição de alguns deles, que podem ser negociados com o empregador e os sindicatos. </p>
+                    </div>
+                </div>
+                <div class="grafismo">
+                    <div class="destaque gradiente">
+                        <p>Outro aspecto importante é que a reforma deixou mais explícito que os benefícios (vestuário, previdência privada, educação, transporte etc.) não configuram salário, e sim utilidades ofertadas pelo empregador.</p>
+                    </div>
+                </div>
+                <h4>Mas o que poderá ser negociado?</h4>
+                <p>Com a nova legislação, as convenções coletivas e os acordos coletivos de trabalho entre sindicatos de trabalhadores e empregadores passam a prevalecer perante a CLT, isto é, eles terão mais força do que o previsto nessa norma. Tudo o que for negociado pode se sobrepor ao legislado, por exemplo, em uma negociação coletiva, o 13º salário <b>jamais</b> será extinto, mas, se for acordado com o sindicato, poderá ser parcelado em até 12 vezes.</p>
+                <p>As férias poderão ser fracionadas em até três períodos, contanto que um deles não seja inferior a 14 dias corridos e os demais não sejam inferiores a cinco dias cada um. A reforma também proíbe que o início das férias ocorra dois dias antes de um feriado ou de um dia de repouso semanal remunerado. O funcionário poderá gozar os 30 dias corridos ou dividi-los durante o ano.</p>
+                <p>Confira os <b>benefícios obrigatórios que não podem ser negociados</b>, ou seja, não podem sofrer supressão ou redução, conforme o artigo 611-B da Lei nº 13.467/2017.</p>
+                <div class="infografico02 d-none d-sm-block no-print">
+                    <p class="titulo"><b>É proibido reduzir</b></p>
+                    <span class="texto01">Seguro-desemprego</span>
+                    <span class="texto02">FGTS</span>
+                    <span class="texto03">Salário-mínimo, 13º<br>e hora extra</span>
+                    <span class="texto04">Repouso semanal remunerado</span>
+                    <span class="texto05">Salário-família</span>
+                    <span class="texto06">Licença-maternidade (4 meses) e licença-paternidade</span>
+                    <span class="texto07">Liberdade sindical<br>e direito de greve</span>
+                    <span class="texto08">Aposentadoria</span>
+                    <span class="texto09">Férias</span>
+                    <span class="texto10">Aviso-prévio<br>(30 dias)</span>
+                    <div class="info-destaque">
+                        <p>O texto ainda prevê outros 15 direitos que não podem ser reduzidos nem suprimidos por acordo ou por convenção coletivos.</p>
+                    </div>
+                </div>
+                <div class="infografico02-mobile d-block d-sm-none print">
+                    <p class="titulo"><b>É proibido reduzir</b></p>
+                    <ul class="marcador-flecha">
+                        <li>Seguro-desemprego</li>
+                        <li>FGTS</li>
+                        <li>Salário-mínimo, 13º e hora extra</li>
+                        <li>Repouso semanal remunerado</li>
+                        <li>Salário-família</li>
+                        <li>Licença-maternidade (4 meses) e licença-paternidade</li>
+                        <li>Liberdade sindical e direito de greve</li>
+                        <li>Aposentadoria</li>
+                        <li>Férias</li>
+                        <li>Aviso-prévio (30 dias)</li>
+                    </ul>
+                    <div class="info-destaque-mobile">
+                        <p>O texto ainda prevê outros 15 direitos que não podem ser reduzidos nem suprimidos por acordo ou por convenção coletivos.</p>
+                    </div>
+                </div>
+                <h4>Conheça mais detalhes sobre esses benefícios</h4>
+                <div class="destaque-beneficios beneficios01">
+                    <img src="img/01.png" class="img-beneficios01">
+                    <p>Com a reforma trabalhista, o Fundo de Garantia do Tempo de Serviço (FGTS) teve uma novidade. Antes da reformulação, se o trabalhador pedisse demissão do emprego, não teria acesso ao FGTS caso optasse pela modalidade de rescisão por comum acordo. Agora, ele poderá movimentar 80% do saldo do FGTS, mas não terá direito ao seguro-desemprego, e a empresa terá de pagar metade do aviso-prévio e da multa sobre o valor depositado no fundo, isto é, 20%.</p>
+                </div>
+                <div class="destaque-beneficios beneficios02">
+                    <img src="img/02.png" class="img-beneficios02">
+                    <p>As regras do seguro-desemprego permaneceram inalteradas com a reforma. Para que o funcionário possa receber esse benefício, deve ter a carteira de trabalho assinada, não pode ser demitido por justa causa e precisa ter trabalhado pelo menos 18 meses na primeira vez do pedido, 12 meses na segunda e 6 meses na terceira vez. Para fazer o pedido do seguro, o beneficiário não pode estar trabalhando nem ter um CNPJ (Cadastro Nacional da Pessoa Jurídica) em seu nome, ou seja, mesmo que a empresa esteja inativa, não terá direito a esse benefício. Já aqueles trabalhadores que pediram demissão por meio do acordo formal com o empregador continuam sem direito ao seguro-desemprego. </p>
+                </div>
+                <div class="destaque-beneficios beneficios01">
+                    <img src="img/03.png" class="img-beneficios01">
+                    <p>As horas extras continuam sendo pagas com acréscimo de, no mínimo, 50% sobre o valor da hora normal, mas a reforma ressalta que serão pagas somente as horas extras efetivamente trabalhadas. Isso significa que, se o funcionário estiver na empresa sem exercer suas atividades, não poderá cobrar hora extra, por exemplo: estudar na empresa depois do horário de trabalho. </p>
+                </div>
+                <div class="destaque-beneficios beneficios02">
+                    <img src="img/04.png" class="img-beneficios02">
+                    <p>Os demais benefícios, como salário-família, licença-maternidade (duração de 120 dias), aviso-prévio proporcional ao tempo de serviço (mínimo de 30 dias, com acréscimo de 3 dias por ano trabalhado até o limite de 90), vale-transporte, seguros de acidentes do trabalho, auxílio-doença, adicional noturno e aposentadoria, também ficam de fora da reforma, em outras palavras, não podem ser negociados.</p>
+                </div>
+                <div class="grafismo">
+                    <div class="destaque gradiente icone importante">
+                        <p>É fundamental ressaltar que os benefícios desempenham um papel importante na valorização do trabalho dos funcionários, já que representam fatores motivacionais e também garantem uma melhor qualidade de vida, tanto no ambiente de trabalho quanto fora dele.</p>
+                    </div>
+                </div>
+                <p>Agora, chegou a hora de praticar.</p>
+
+                <div class="box-atividade no-print" aria-hidden="true">
+                    <p class="titulo-ativ"><strong>Arrasta e solta</strong></p>
+                    <p>Clique e arraste cada uma das vantagens listadas a seguir para as colunas correspondentes:</p>
+                    <div id="content-game">
+                        <div class="container-fluid game-body no-print" style="padding:0;">
+                            <div class="row">
+                                <div id="slots" class="col-12">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 mt-3 mb-3">
+                                            <div class="game-titulo">
+                                                <p>Para a organização</p>
+                                            </div>
+                                            <div id="slot-1" class="slot">
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 mt-3 mb-3">
+                                            <div class="game-titulo">
+                                                <p>Para o funcionário</p>
+                                            </div>
+                                            <div id="slot-2" class="slot">
+                                            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div id="cardPile" class="game-itens-container">
+                                    <div id="card-1" class="card" data-target="slot-2">
+                                        Desenvolvimento pessoal e bem-estar
+                                    </div>
+                                    <div id="card-3" class="card" data-target="slot-2">
+                                        Sentimento de segurança e de confiança
+                                    </div>
+                                    <div id="card-5" class="card" data-target="slot-1">
+                                        Garantia do cumprimento das obrigações legais
+                                    </div>
+                                    <div id="card-8" class="card" data-target="slot-1">
+                                        Fortalecimento da cultura organizacional
+                                    </div>
+                                    <div id="card-6" class="card" data-target="slot-2">
+                                        Melhoria na qualidade de vida
+                                    </div>
+                                    <div id="card-7" class="card" data-target="slot-1">
+                                        Aumento da produtividade
+                                    </div>
+                                    <div id="card-2" class="card" data-target="slot-1">
+                                        Valorização da marca empregadora  
+                                    </div>
+                                    <div id="card-4" class="card" data-target="slot-2">
+                                        Maior satisfação no trabalho
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                           
+                    
+                    <div class="modal fade" id="bgmodal-acerto" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-check    "></i> Resposta correta</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-4">
+                                            <img src="../assets/atividades/arrasta_solta/resposta_pos.svg" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-12 col-lg-8">
+                                            <p>Parabéns pelo excelente desempenho! Você está no caminho certo para dominar este assunto tão importante para a área de RH.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="bgmodal-erro" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header bg-danger">
+                                    <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-times"></i> Resposta incorreta</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-4">
+                                            <img src="../assets/atividades/arrasta_solta/resposta_neg.svg" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-12 col-lg-8">
+                                            <p>Ops, tente novamente!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3>Encerramento</h3>
+                <p>Até aqui, você conheceu os benefícios legais e opcionais e como são fundamentais para as empesas e os trabalhadores. Investir em benefícios é uma estratégia eficaz para atrair e reter talentos, além de melhorar o clima organizacional e cumprir as exigências legais. Em função disso, o conhecimento e a gestão dos benefícios são essenciais para que os profissionais de RH possam alinhar práticas às necessidades dos trabalhadores, promovendo um ambiente mais equilibrado e saudável. Aprenda mais detalhes sobre os benefícios legais e opcionais nos outros conteúdos desta unidade curricular.</p>
+                <br><br>
+
+                <a href="#" class="voltar-topo no-print" aria-hidden="true"><img src="../assets/images/bt_topo.svg"></a>
+            </div>
+            
         </section>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script src="../assets/bootstrap/bootstrap.bundle.min.js"></script>
-        <!--Jquery-->
-        <script src="../assets/js/jquery-3.6.0.min.js"></script>
-        <!--Áudio customizado-->
-        <script src="../assets/js/audio-player.js"></script>
-        <!--Splide - slideshow-->
-        <script src="../assets/js/splide.min.js"></script>
-        <!--Prog'n'roll - barra de progresso conforme rola a página-->
-        <script src="../assets/js/prognroll.min.js"></script>
-        <!--Scripts gerais-->
-        <script src="../assets/js/geral.js"></script>
+        <!-- Paginação-->
+        <footer class="text-center no-print d-flex justify-content-center mx-auto">
+            <ul class="pagination">
 
-        <script>
-            var splide = new Splide( '.splide', {
-                type   : 'slide',
-                perPage: 2,
-                trimSpace: false,
-                focus  : 'center'
-            } );
+            </ul>
+        </footer>
+    </section>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="../assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!--Jquery-->
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+    <!--Áudio customizado-->
+    <script src="../assets/js/audio-player.js"></script>
+    <!--Splide - slideshow-->
+    <script src="../assets/js/splide.min.js"></script>
+    <!--Prog'n'roll - barra de progresso conforme rola a página-->
+    <script src="../assets/js/prognroll.min.js"></script>
+    <script src="../print/print/template.config.js"></script>
+    <!--Atividade arrasta e solta-->
+    <script src='../assets/atividades/arrasta_solta/dragula.min.js'></script>
+    <script src="../assets/atividades/arrasta_solta/game-custom.js"></script>
+    <!--Scripts gerais-->
+    <script src="../assets/js/geral.js"></script>
+    <script src="js/geral.js"></script>
 
-            splide.mount();
+    <script>
+        var splide = new Splide('.splide', {
+            type: 'slide',
+            perPage: 2,
+            trimSpace: false,
+            focus: 'center'
+        });
 
-            $(function() {
-                $("body").prognroll();
-            });
-        </script>
+        splide.mount();
 
-        <!-- Handtalk -->
-        <script>
-            var scriptElem=document.createElement("script");
-            scriptElem.src="https://plugin.handtalk.me/web/latest/handtalk.min.js",
-            scriptElem.charset="UTF-8",
-            scriptElem.onload=function(){
+        $(function () {
+            $("body").prognroll();
+        });
+    </script>
+
+    <!-- Handtalk -->
+    <script>
+        var scriptElem = document.createElement("script");
+        scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+            scriptElem.charset = "UTF-8",
+            scriptElem.onload = function () {
                 window.ht = new HT({
-                    token:"bf5b7efb148a829a126a0e0c9fd533bf",
-                    align:"top",
+                    token: "bf5b7efb148a829a126a0e0c9fd533bf",
+                    align: "top",
                     videoEnabled: true,
-                    ytEmbedReplace: true,           
-                    mobileConfig:{align:"right",
-                                    actionsAlign:"top",
-                                    customButtonStyle:{
-                                        borderRadius:"6px",
-                                        size:"38px",
-                                        horizontalMargin:"13px",
-                                        bottomMargin:"140px",
-                                        rightMargin:"40px"}
-                                    }
-                    });        
-                $('.ht-skip').attr("aria-hidden","true")
+                    ytEmbedReplace: true,
+                    mobileConfig: {
+                        align: "right",
+                        actionsAlign: "top",
+                        customButtonStyle: {
+                            borderRadius: "6px",
+                            size: "38px",
+                            horizontalMargin: "13px",
+                            bottomMargin: "140px",
+                            rightMargin: "40px"
+                        }
+                    }
+                });
+                $('.ht-skip').attr("aria-hidden", "true")
             },
-        document.body.appendChild(scriptElem);
-        
-        </script>
-    </body>
+            document.body.appendChild(scriptElem);
+
+    </script>
+</body>
+
 </html>
