@@ -241,8 +241,20 @@ body{
     margin: 50px auto;
     width: 640px;
 }
-.info-esquema hr{
-    display: none;
+.info-esquema::after{
+    content: "";
+    border: none;
+    border-left: #033C66 dotted 4px;
+    display: block;
+    background: none;
+    opacity: 1;
+    margin: auto;
+    height: 80%;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .linha-esquema{
     display: flex;
@@ -250,6 +262,7 @@ body{
 .linha-esquema img{
     position: relative;
     z-index: 10;
+    height: 100%;
 }
 .linha-esquema .img-esq{
     margin-right: -60px;
@@ -260,10 +273,12 @@ body{
 .linha-esquema p{
     background: linear-gradient(90deg, #F9EDF3, #E4F5F9);
     border-radius: 30px;
-    padding: 40px 50px;
+    padding: 35px 55px;
     color: #033C66;
     margin: auto;
     font-size: 17px;
+    position: relative;
+    z-index: 2;
 }
 
 
@@ -342,27 +357,12 @@ body{
     .info-esquema{
         width: 100%;
     }
-    .info-esquema hr{
-        border: none;
-        border-left: #033C66 dotted 4px;
-        display: block;
-        background: none;
-        opacity: 1;
-        margin: auto;
-        height: 80%;
-        position: absolute;
-        z-index: 1;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+    
     .linha-esquema img{
         display: none;
     }
     .linha-esquema p{
         margin: 15px auto;
         padding: 25px 30px;
-        position: relative;
-        z-index: 2;
     }
 }
