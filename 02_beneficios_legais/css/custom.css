@@ -258,6 +258,8 @@ body{
 }
 .linha-esquema{
     display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .linha-esquema img{
     position: relative;
@@ -265,7 +267,7 @@ body{
     height: 100%;
 }
 .linha-esquema .img-esq{
-    margin-right: -60px;
+    margin-right: -50px;
 }
 .linha-esquema .img-dir{
     margin-left: -60px;
@@ -273,12 +275,42 @@ body{
 .linha-esquema p{
     background: linear-gradient(90deg, #F9EDF3, #E4F5F9);
     border-radius: 30px;
-    padding: 35px 55px;
+    padding: 40px 60px;
     color: #033C66;
     margin: auto;
     font-size: 17px;
     position: relative;
     z-index: 2;
+}
+
+
+/*------- Respostas Quiz -------*/
+
+.respostas p{
+    display: none;
+    margin: 20px auto;
+    padding: 15px 20px;
+    border: #cd6667 solid 3px;
+    border-radius: 12px;
+}
+.respostas p.resposta-b{
+    border-color: #28afb2;
+}
+.respostas i.fa-check{
+    color: #28afb2;
+    font-size: 24px;
+}
+.respostas i.fa-times{
+    color: #cd6667;
+    font-size: 24px;
+}
+
+/*------- Respostas Quiz -------*/
+
+
+#accordion01 h2.accordion-header img{
+    width: 40px;
+    margin-right: 20px;
 }
 
 
