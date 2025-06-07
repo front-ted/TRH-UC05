@@ -182,7 +182,7 @@ body{
 .infografico-01{
     width: 850px;
     height: 550px;
-    margin: 50px auto;
+    margin: 50px auto 30px auto;
     background: url('../img/info01.png') no-repeat center;
     background-size: 100%;
     position: relative;
@@ -190,29 +190,29 @@ body{
 .infografico-01 span{
     display: block;
     text-align: center;
-    font-size: 14px;
-    width: 250px;
+    font-size: 16px;
+    width: 270px;
     position: absolute;
 }
 .txt01{
     margin-top: 430px;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 .txt02{
-    margin-top: 0px;
-    margin-left: 150px;
+    margin-top:-10px;
+    margin-left: 140px;
 }
 .txt03{
     margin-top: 430px;
-    margin-left: 293px;
+    margin-left: 283px;
 }
 .txt04{
-    margin-top: 42px;
-    margin-left: 435px;
+    margin-top: 14px;
+    margin-left: 425px;
 }
 .txt05{
     margin-top: 430px;
-    margin-left: 578px;
+    margin-left: 568px;
 }
 
 .infografico-02{
@@ -278,7 +278,7 @@ body{
     padding: 40px 60px;
     color: #033C66;
     margin: auto;
-    font-size: 17px;
+    font-size: 16px;
     position: relative;
     z-index: 2;
 }
@@ -322,6 +322,7 @@ body{
                     url("../img/asset03.png") no-repeat left 0px bottom 6% / 12%,
                     linear-gradient(rgba(146, 172, 206, 0.2), rgba(183, 48, 97, 0.2));
     }
+    .paginas{background: none;}
 }
 
 @media screen and (max-width: 1200px){

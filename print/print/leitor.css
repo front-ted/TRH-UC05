@@ -674,8 +674,8 @@ iframe, iframe.youtube-pl{
   display: none;
 }
 .destaque{
-  width: 80%;
-  border: 2px solid;
+  width: 100%;
+  border: none;
   margin: 20px auto;
   padding: 10px;
 }
