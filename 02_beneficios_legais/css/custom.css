@@ -1,28 +1,31 @@
-body{
+body {
     background: url("../img/BG.png") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     padding-bottom: 3.5%;
 }
 
-.paginas{
+.paginas {
     background: url("../img/asset01.png") no-repeat left 0px top 1% / 15%,
-                url("../img/asset02.png") no-repeat right 0px top 50% / 15%,
-                url("../img/asset03.png") no-repeat left 0px bottom 5% / 15%;
+        url("../img/asset02.png") no-repeat right 0px top 50% / 15%,
+        url("../img/asset03.png") no-repeat left 0px bottom 5% / 15%;
 }
 
-.painel-timeline{
+.painel-timeline {
     background: url('../img/painel01/painel01.png') no-repeat center;
     width: 895px;
     height: 401px;
     margin: 50px auto;
     position: relative;
 }
-.painel-timeline h4, .painel-timeline_mobile h4{
+
+.painel-timeline h4,
+.painel-timeline_mobile h4 {
     color: #234B91;
     margin: 0;
 }
-.painel-timeline button{
+
+.painel-timeline button {
     width: 98px;
     height: 98px;
     border-radius: 100%;
@@ -31,51 +34,78 @@ body{
     position: absolute;
     transition: all 0.3s;
 }
-.btn-1848{
+
+.btn-1848 {
     background-image: url('../img/painel01/bt01.png');
     background-color: #114985;
     top: 116.5px;
     left: 14.5px;
 }
-.btn-1872{
+
+.btn-1872 {
     background-image: url('../img/painel01/bt02.png');
     background-color: #114985;
     top: 184.5px;
     left: 168px;
 }
-.btn-1925{
+
+.btn-1925 {
     background-image: url('../img/painel01/bt03.png');
     background-color: #114985;
     top: 116px;
     left: 321px;
 }
-.btn-1934{
+
+.btn-1934 {
     background-image: url('../img/painel01/bt04.png');
     background-color: #fff;
     top: 184.3px;
     left: 473.8px;
 }
-.btn-1943{
+
+.btn-1943 {
     background-image: url('../img/painel01/bt05.png');
     background-color: #fff;
     top: 116px;
     left: 628px;
 }
-.btn-1988{
+
+.btn-1988 {
     background-image: url('../img/painel01/bt06.png');
     background-color: #fff;
     top: 184px;
     left: 781px;
 }
-.btn-1848:hover{background-image: url('../img/painel01/bt01_hover.png');}
-.btn-1872:hover{background-image: url('../img/painel01/bt02_hover.png');}
-.btn-1925:hover{background-image: url('../img/painel01/bt03_hover.png');}
-.btn-1934:hover{background-image: url('../img/painel01/bt04_hover.png'); background-color: #114985;}
-.btn-1943:hover{background-image: url('../img/painel01/bt05_hover.png'); background-color: #114985;}
-.btn-1988:hover{background-image: url('../img/painel01/bt06_hover.png'); background-color: #114985;}
+
+.btn-1848:hover {
+    background-image: url('../img/painel01/bt01_hover.png');
+}
+
+.btn-1872:hover {
+    background-image: url('../img/painel01/bt02_hover.png');
+}
+
+.btn-1925:hover {
+    background-image: url('../img/painel01/bt03_hover.png');
+}
+
+.btn-1934:hover {
+    background-image: url('../img/painel01/bt04_hover.png');
+    background-color: #114985;
+}
+
+.btn-1943:hover {
+    background-image: url('../img/painel01/bt05_hover.png');
+    background-color: #114985;
+}
+
+.btn-1988:hover {
+    background-image: url('../img/painel01/bt06_hover.png');
+    background-color: #114985;
+}
 
 
-.painel-timeline_mobile{
+.painel-timeline_mobile {
     background: url('../img/painel01/painel01_mob.png') no-repeat bottom center;
     background-size: 100%;
     width: 340px;
@@ -83,7 +113,8 @@ body{
     margin: 50px auto;
     position: relative;
 }
-.painel-timeline_mobile button{
+
+.painel-timeline_mobile button {
     width: 85px;
     height: 85px;
     border-radius: 100%;
@@ -92,55 +123,80 @@ body{
     position: absolute;
     transition: all 0.3s;
 }
-.btn-1848_mobile{
+
+.btn-1848_mobile {
     background-image: url('../img/painel01/bt01.png');
     background-color: #114985;
     top: 112px;
     left: 158px;
 }
-.btn-1872_mobile{
+
+.btn-1872_mobile {
     background-image: url('../img/painel01/bt02.png');
     background-color: #114985;
     top: 242px;
     left: 99.5px;
 }
-.btn-1925_mobile{
+
+.btn-1925_mobile {
     background-image: url('../img/painel01/bt03.png');
     background-color: #114985;
     top: 372px;
     left: 158px;
 }
-.btn-1934_mobile{
+
+.btn-1934_mobile {
     background-image: url('../img/painel01/bt04.png');
     background-color: #114985;
     top: 502px;
     left: 99.5px;
 }
-.btn-1943_mobile{
+
+.btn-1943_mobile {
     background-image: url('../img/painel01/bt05.png');
     background-color: #114985;
     top: 632.5px;
     left: 158px;
 }
-.btn-1988_mobile{
+
+.btn-1988_mobile {
     background-image: url('../img/painel01/bt06.png');
     background-color: #114985;
     top: 762px;
     left: 99.5px;
 }
-.btn-1848_mobile:hover{background-image: url('../img/painel01/bt01_hover.png');}
-.btn-1872_mobile:hover{background-image: url('../img/painel01/bt02_hover.png');}
-.btn-1925_mobile:hover{background-image: url('../img/painel01/bt03_hover.png');}
-.btn-1934_mobile:hover{background-image: url('../img/painel01/bt04_hover.png');}
-.btn-1943_mobile:hover{background-image: url('../img/painel01/bt05_hover.png');}
-.btn-1988_mobile:hover{background-image: url('../img/painel01/bt06_hover.png');}
+
+.btn-1848_mobile:hover {
+    background-image: url('../img/painel01/bt01_hover.png');
+}
+
+.btn-1872_mobile:hover {
+    background-image: url('../img/painel01/bt02_hover.png');
+}
+
+.btn-1925_mobile:hover {
+    background-image: url('../img/painel01/bt03_hover.png');
+}
+
+.btn-1934_mobile:hover {
+    background-image: url('../img/painel01/bt04_hover.png');
+}
+
+.btn-1943_mobile:hover {
+    background-image: url('../img/painel01/bt05_hover.png');
+}
+
+.btn-1988_mobile:hover {
+    background-image: url('../img/painel01/bt06_hover.png');
+}
 
 
-.painel-periodos{
+.painel-periodos {
     text-align: center;
     margin: 40px auto;
 }
-.painel-periodos button{
+
+.painel-periodos button {
     margin: 10px 30px;
     width: 182px;
     height: 181px;
@@ -150,11 +206,19 @@ body{
     transition: all 0.3;
 }
 
-.btn-aquisitivo{background: url('../img/bt01.png') no-repeat;}
-.btn-concessivo{background: url('../img/bt02.png') no-repeat;}
-.btn-parcelamento{background: url('../img/bt03.png') no-repeat;}
+.btn-aquisitivo {
+    background: url('../img/bt01.png') no-repeat;
+}
 
-.painel-periodos button span{
+.btn-concessivo {
+    background: url('../img/bt02.png') no-repeat;
+}
+
+.btn-parcelamento {
+    background: url('../img/bt03.png') no-repeat;
+}
+
+.painel-periodos button span {
     width: 220px;
     margin-left: -19px;
     margin-top: 140px;
@@ -164,15 +228,17 @@ body{
     font-size: 17px;
     padding: 8px 16px;
 }
-.painel-periodos button:hover>span{
+
+.painel-periodos button:hover>span {
     background-color: #b82f60;
     color: #FFFFFF;
 }
-.painel-periodos button span:hover{
+
+.painel-periodos button span:hover {
     background-color: #b82f60;
 }
 
-.painel-periodos .img-check{
+.painel-periodos .img-check {
     width: 25px;
     top: 135px;
     right: -25px;
@@ -180,7 +246,7 @@ body{
     display: none;
 }
 
-.infografico-01{
+.infografico-01 {
     width: 850px;
     height: 550px;
     margin: 50px auto 30px auto;
@@ -188,35 +254,41 @@ body{
     background-size: 100%;
     position: relative;
 }
-.infografico-01 span{
+
+.infografico-01 span {
     display: block;
     text-align: center;
     font-size: 16.5px;
     width: 270px;
     position: absolute;
 }
-.txt01{
+
+.txt01 {
     margin-top: 430px;
     margin-left: 0px;
 }
+
 .txt02 {
     margin-top: -20px;
     margin-left: 140px;
 }
-.txt03{
+
+.txt03 {
     margin-top: 430px;
     margin-left: 283px;
 }
-.txt04{
+
+.txt04 {
     margin-top: 14px;
     margin-left: 425px;
 }
-.txt05{
+
+.txt05 {
     margin-top: 430px;
     margin-left: 568px;
 }
 
-.infografico-02{
+.infografico-02 {
     background: url('../img/info02.png') no-repeat center left;
     position: relative;
     width: 600px;
@@ -227,22 +299,25 @@ body{
     justify-content: space-between;
     margin: 50px auto;
 }
-.infografico-02 span{
+
+.infografico-02 span {
     display: block;
     font-size: 17px;
     height: 78px;
 }
-.infografico-02 span b{
+
+.infografico-02 span b {
     font-size: 18px;
 }
 
 
-.info-esquema{
+.info-esquema {
     position: relative;
     margin: 50px auto;
     width: 640px;
 }
-.info-esquema::after{
+
+.info-esquema::after {
     content: "";
     border: none;
     border-left: #033C66 dotted 4px;
@@ -257,23 +332,28 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.linha-esquema{
+
+.linha-esquema {
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.linha-esquema img{
+
+.linha-esquema img {
     position: relative;
     z-index: 10;
     height: 100%;
 }
-.linha-esquema .img-esq{
+
+.linha-esquema .img-esq {
     margin-right: -50px;
 }
-.linha-esquema .img-dir{
+
+.linha-esquema .img-dir {
     margin-left: -60px;
 }
-.linha-esquema p{
+
+.linha-esquema p {
     background: linear-gradient(90deg, #F9EDF3, #E4F5F9);
     border-radius: 30px;
     padding: 40px 60px;
@@ -287,21 +367,24 @@ body{
 
 /*------- Respostas Quiz -------*/
 
-.respostas p{
+.respostas p {
     display: none;
     margin: 20px auto;
     padding: 15px 20px;
     border: #cd6667 solid 3px;
     border-radius: 12px;
 }
-.respostas p.resposta-b{
+
+.respostas p.resposta-b {
     border-color: #28afb2;
 }
-.respostas i.fa-check{
+
+.respostas i.fa-check {
     color: #28afb2;
     font-size: 24px;
 }
-.respostas i.fa-times{
+
+.respostas i.fa-times {
     color: #cd6667;
     font-size: 24px;
 }
@@ -309,36 +392,39 @@ body{
 /*------- Respostas Quiz -------*/
 
 
-#accordion01 h2.accordion-header img{
+#accordion01 h2.accordion-header img {
     width: 40px;
     margin-right: 20px;
 }
 
 
 
-@media screen and (max-width: 1300px){
-    body{
+@media screen and (max-width: 1300px) {
+    body {
         background: url("../img/asset01.png") no-repeat left 0px top 2% / 12%,
-                    url("../img/asset02.png") no-repeat right 0px top 50% / 12%,
-                    url("../img/asset03.png") no-repeat left 0px bottom 6% / 12%,
-                    linear-gradient(rgba(146, 172, 206, 0.2), rgba(183, 48, 97, 0.2));
+            url("../img/asset02.png") no-repeat right 0px top 50% / 12%,
+            url("../img/asset03.png") no-repeat left 0px bottom 6% / 12%,
+            linear-gradient(rgba(146, 172, 206, 0.2), rgba(183, 48, 97, 0.2));
     }
-    .paginas{background: none;}
+
+    .paginas {
+        background: none;
+    }
 }
 
-@media screen and (max-width: 1200px){
-    body{
+@media screen and (max-width: 1200px) {
+    body {
         background: linear-gradient(rgba(146, 172, 206, 0.2), rgba(183, 48, 97, 0.2));
     }
 }
 
-@media screen and (max-width: 820px){
-    .painel-timeline{
+@media screen and (max-width: 820px) {
+    .painel-timeline {
         transform: scale(0.80);
         margin: -15px -88px;
     }
 
-    .painel-periodos button{
+    .painel-periodos button {
         margin: 20px 25px;
         width: 182px;
         height: 181px;
@@ -348,55 +434,89 @@ body{
         transition: all 0.3;
     }
 
-    .infografico-01{
+    .infografico-01 {
         transform: scale(0.88);
         margin: -20px -68px;
     }
 
-    .info-esquema{
+    .info-esquema {
         width: 550px;
     }
 }
 
-@media screen and (max-width: 480px){
-    .infografico-01{
+@media screen and (max-width: 480px) {
+    .infografico-01 {
         transform: scale(1);
         margin: 40px auto;
         width: 100%;
         height: auto;
         background: none;
     }
-    .infografico-01 span{
+
+    .infografico-01 span {
         position: relative;
         margin: 0px auto 30px auto;
         font-size: 16px;
         width: 100%;
     }
-    .infografico-01 span b{
+
+    .infografico-01 span b {
         font-size: 17px;
     }
 
-    .infografico-02{
+    .infografico-02 {
         width: 100%;
         height: auto;
         background: none;
         padding-left: unset;
     }
-    .infografico-02 span{
+
+    .infografico-02 span {
         margin: 10px auto 30px auto;
         width: 80%;
         text-align: center;
     }
 
-    .info-esquema{
+    .info-esquema {
         width: 100%;
     }
-    
-    .linha-esquema img{
+
+    .linha-esquema img {
         display: none;
     }
-    .linha-esquema p{
+
+    .linha-esquema p {
         margin: 15px auto;
         padding: 25px 30px;
+    }
+
+    .margem-mobile {
+        margin-top: -14%;
+    }
+
+    .margem-mobile2 {
+        margin-top: -3%;
+    }
+
+    .margem-mobile3 {
+        margin-top: -6%;
+    }
+
+    h3,
+    h4 {
+        margin-bottom: 25px;
+    }
+
+    .img-paragrafo {
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+
+    .img-paragrafo2 {
+        width: 55%;
+        margin: auto;
+        display: block;
+        margin-top: -9%;
     }
 }
